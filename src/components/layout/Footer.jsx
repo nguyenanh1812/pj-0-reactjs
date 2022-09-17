@@ -99,17 +99,17 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div className="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <Link to="mailto:nguyenanh1812zxc@gmail.com">anhnt</Link></p>
+                            <p>Copyright &copy; 2018, All Right Reserved <Link href={"mailto:nguyenanh1812zxc@gmail.com"}>anhnt</Link></p>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div className="footer-menu">
                             <ul>
-                                <li><Link to={'#'}>Home</Link></li>
-                                <li><Link to={'#'}>Terms</Link></li>
-                                <li><Link to={'#'}>Privacy</Link></li>
-                                <li><Link to={'#'}>Policy</Link></li>
-                                <li><Link to={'#'}>Contact</Link></li>
+                                <li><Link href={'#'}>Home</Link></li>
+                                <li><Link href={'#'}>Terms</Link></li>
+                                <li><Link href={'#'}>Privacy</Link></li>
+                                <li><Link href={'#'}>Policy</Link></li>
+                                <li><Link href={'#'}>Contact</Link></li>
                             </ul>
                         </div>
                     </div>
